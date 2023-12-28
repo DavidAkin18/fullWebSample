@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.container{
+    background-color: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #1f2937;
+    width: 95%;
+}
+.logo{
+    color:#f9faf8 ;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 50px;
+}
+li{
+    list-style: none;
+}
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.intro{
+    background-color: #1f2937;
+    padding: 50px 35px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 70px;
+    flex-wrap: wrap-reverse;
+}
+.hero-text{
+    width: 500px;
+}
+.hero-text h2{
+    font-size: 48px;
+    color: #f9faf8;
+    padding: 20px;
+}
+.hero-text p{
+    padding:5px 20px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+button{
+    border: none;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 10px 20px;
+    font-weight: bolder;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.main > h2{
+    margin :30px auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.extra-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+.frame-box{
+    width: 200px;
+}
+.frame{
+    width: 205px;
+    height: 205px;
+    /* border: 3px solid #3882f6; */
+    border-radius: 10px;
+}
+.frame-box p{
+    color: #1f2937;
+    width: 150px;
+    font-weight: bold;
+}
+
+.quote-sec{
+    margin: 0 auto;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+.quote-sec >h2{
+    font-size: 36px;
+    text-align: left;
+    font-weight:200;
+    padding: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.quote-sec p{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.call{
+    margin: 50px auto;
+    width: 80%;
+    background-color: #3882f6;
+    color:#f9faf8;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+#btn{
+    border: solid #e5e7eb;
+}
+.footer{
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+span{
+    color: #3882f6;
+}
